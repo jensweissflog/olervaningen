@@ -52,7 +52,7 @@ def get_target_temp(fridge):
     if stepTemp != "":
         return(stepTemp)
     else:
-        return(5)
+        return(app.config['DEFAULT_TEMP'])
 
 
 
